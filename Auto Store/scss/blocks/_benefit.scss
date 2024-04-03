@@ -1,0 +1,39 @@
+.benefit {
+
+}
+
+.benefit__title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.benefit__text {
+    margin-bottom: 14px;
+    font-size: 16px;
+    line-height: 1.85;
+    opacity: 0.8;
+}
+
+
+
+.benefito {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.benefit__texto {
+	position: absolute;
+
+	justify-content: center;
+	align-items: center;
+
+	max-width: 750px;
+	
+	margin-bottom: 14px;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.85; /* 29.6px */
+}

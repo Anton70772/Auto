@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Auto Ugway</title>
+		<link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<nav class="header__nav nav">
+
+                    <div class="nav__logo">
+                        <a href="#!" class="logo">Auto Ugway</a>
+                    </div>
+
+					<ul class="nav-list">
+                       	<li class="nav-list__item">
+							<a href="#!" class="nav-list__link">Auto</a>
+						</li>
+						<li class="nav-list__item">
+							<a href="./shop.html" class="nav-list__link">Shop</a>
+						</li>
+						<li class="nav-list__item">
+							<a href="./contact.html" class="nav-list__link">Contact</a>
+						</li>
+					</ul>
+
+                    <button id="open-mobile-nav-btn" class="nav__btn"><img src="./img/icons/mobile-nav.svg" alt="Open navigation"></button>
+				</nav>
+
+				<div class="header__content">
+					<h1 class="header__title">
+						Always in your element
+					</h1>
+					<p>
+						Discover the world of cars: Your guide to choosing the perfect car
+					</p>
+
+				</div>
+			</div>
+		</header>
+
+        <section class="benefits">
+            <div class="container">
+                <div class="benefits__grid">
+
+                    <div class="benefits__title">
+                        <h2 class="title-2">Why Choosing Us</h2>
+                    </div>
+
+                    <div class="benefit">
+                        <h3 class="benefit__title">Wide range</h3>
+                        <p class="benefit__text">We offer cars of different brands and models so that each of our customers can choose a car that perfectly suits their needs and preferences.</p>
+                    </div>
+
+                    <div class="benefit">
+                        <h3 class="benefit__title">Professionalism</h3>
+                        <p class="benefit__text">Our specialists have many years of experience in the automotive industry and have in-depth knowledge of all the cars presented in our store.</p>
+                    </div>
+
+                    <div class="benefit">
+                        <h3 class="benefit__title">Individual approach</h3>
+                        <p class="benefit__text">We value each of our clients and strive to offer the most comfortable purchase conditions, taking into account all your wishes and needs.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+
+                <div class="products__title">
+                    <h2 class="title-2">Best Selling Product</h2>
+                </div>
+
+                <div class="products__tabs none">
+                    <div class="tab-controls">
+                        <button data-tab="all" class="tab-controls__btn tab-controls__btn--active">All</button>
+                        <button data-tab="chair" class="tab-controls__btn">Chair</button>
+                        <button data-tab="bed" class="tab-controls__btn">Beds</button>
+                        <button data-tab="sofa" class="tab-controls__btn">Sofa</button>
+                        <button data-tab="lamp" class="tab-controls__btn">Lamp</button>
+                    </div>
+                </div>
+
+                <div class="products__slider">
+
+                    <!-- //slider -->
+                    <div class="slider">
+
+                        <!-- Slider main container -->
+                        <div class="swiper">
+
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <article data-tab-value="chair" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/panamera.jpg" srcset="./img/products/chair-01@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">Porsche</a>
+                                        <h3 class="card__title">Panamera</h3>
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="₽">17 000 000</div>
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="chair" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/m200.jpg" srcset="./img/products/chair-01@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">Mitsubishi</a>
+                                        <h3 class="card__title">L200</h3>
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="₽">5 490 000</div>
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="chair" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/x6.jpg" srcset="./img/products/chair-01@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">BMW</a>
+                                        <h3 class="card__title">X6</h3>
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="₽">14 000 000</div>
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="chair" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/gle.jpg" srcset="./img/products/chair-01@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">Mercedes-Benz</a>
+                                        <h3 class="card__title">GLE</h3>
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="₽">13 490 000</div>
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="chair" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/Q8.jpg" srcset="./img/products/chair-01@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">Audi</a>
+                                        <h3 class="card__title">Q8</h3>
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="₽">12 399 000</div>
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="chair" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/e-tron.jpg" srcset="./img/products/chair-01@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">Audi</a>
+                                        <h3 class="card__title">E-tron</h3>
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="₽">5 699 000</div>
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="chair" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/rr.jpg" srcset="./img/products/chair-01@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">Rolls-Royce</a>
+                                        <h3 class="card__title">Cullinan</h3>
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="₽">65 000 000</div>
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="chair" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/continental.webp" srcset="./img/products/chair-01@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">Bentley</a>
+                                        <h3 class="card__title">Continental GT</h3>
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="₽">49 500 000</div>
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="chair" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/fspur.jpg" srcset="./img/products/chair-01@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">Bentley</a>
+                                        <h3 class="card__title">Flying Spur</h3>
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="₽">30 500 000</div>
+                                        </div>
+
+                                    </div>
+                                </article>
+
+                                <article data-tab-value="chair" class="card swiper-slide">
+                                    <a href="#product-page" class="card__link"></a>
+                                    <div class="card__photo">
+                                        <img src="./img/products/taycan.jpg" srcset="./img/products/chair-01@2x.png 2x" alt="Title" class="card__img">
+                                    </div>
+
+                                    <div class="card__desc">
+
+                                        <a href="#category" class="card__category">Porsche</a>
+                                        <h3 class="card__title">Taycan</h3>
+
+                                        <div class="card__footer">
+                                            <div class="card__price" data-value="₽">10 490 000</div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+
+                        <!-- If we need navigation buttons -->
+                        <button id="sliderPrev" class="slider__btn slider__btn--prev">
+                            <img src="./img/icons/slider/slider-left.svg" alt="Previous">
+                        </button>
+
+                        <button id="sliderNext" class="slider__btn slider__btn--next">
+                            <img src="./img/icons/slider/slider-right.svg" alt="Next">
+                        </button>
+
+                    </div>
+                    <!-- //slider -->
+
+                </div>
+                <!-- //products__slider -->
+
+                <div class="products__link">
+                    <a class="read-more read-more--large" href="./shop.html">View All</a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container container--small">
+                <!-- footer__grid -->
+                <div class="footer__grid">
+
+                    <!-- Desc -->
+                    <div class="footer__desc">
+                        <div class="footer__logo">
+                            <a href="#!" class="logo">Panto</a>
+                        </div>
+
+                        <p>The advantage of buying a car from us is that you get comfortable service and comprehensive amenities.</p>
+                    </div>
+                    <!-- // Desc -->
+
+                    <nav class="footer__nav footer__nav--services">
+                        <h3 class="footer__nav-title">Services</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="#!">Email Marketing</a></li>
+                            <li class="footer__list-item"><a href="#!">Campaigns</a></li>
+                            <li class="footer__list-item"><a href="#!">Branding</a></li>
+                        </ul>
+                    </nav>
+
+                    <nav class="footer__nav">
+                        <h3 class="footer__nav-title">Cars</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="#!">Off-road</a></li>
+                            <li class="footer__list-item"><a href="#!">Sedans</a></li>
+                            <li class="footer__list-item"><a href="#!">Compartment</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <!-- // footer__grid -->
+
+
+                <!-- footer__row -->
+                <div class="footer__row">
+                    <div class="footer__copyright">Copyright © 2023</div>
+
+                    <div class="footer__links">
+                        <a href="#!">Terms & Conditions</a>
+                        <a href="#!">Privacy Policy</a>
+                    </div>
+
+                </div>
+                <!-- // footer__row -->
+
+            </div>
+        </footer>
+
+        <div id="mobile-nav" class="mobile-nav-wrapper">
+                <div class="mobile-nav-header">
+                    <a href="#cart" class="mobile-cart">
+                        <div href="#!" class="cart">
+                            <img
+                                class="cart__img"
+                                src="./img/icons/cart.svg"
+                                alt=""
+                            />
+                            <div class="cart__count">0</div>
+                        </div>
+                        Cart
+                    </a>
+
+                    <button id="close-mobile-nav-btn" class="mobile-nav-btn-close">
+                        <img src="./img/icons/close.svg" alt="Close navigation">
+                    </button>
+                </div>
+
+                <ul class="mobile-nav">
+                    <li class="mobile-nav__item">
+                        <a href="#furniture" class="mobile-nav__link mobile-nav__link--dropdown">Furniture</a>
+                        <ul class="mobile-sub-nav">
+                            <li class="mobile-sub-nav__item"><a href="#!" class="mobile-sub-nav__link">Home</a></li>
+                            <li class="mobile-sub-nav__item"><a href="#!" class="mobile-sub-nav__link">Services</a></li>
+                            <li class="mobile-sub-nav__item"><a href="#!" class="mobile-sub-nav__link">Products</a></li>
+                            <li class="mobile-sub-nav__item"><a href="#!" class="mobile-sub-nav__link">Contacts</a></li>
+                        </ul>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a href="#!" class="mobile-nav__link">Shop</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a href="#!" class="mobile-nav__link">About Us</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a href="#!" class="mobile-nav__link">Contact</a>
+                    </li>
+                </ul>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+	</body>
+</html>
